@@ -23,7 +23,7 @@
   </head>
 <body>
   <nav class="navbar navbar-light navbar-light" style="background-color: #343a40;margin-top: -3px;">
-    <span class="navbar-brand text-white">Rawmaterial (Org1)</span>
+    <span class="navbar-brand text-white">Peer Node 01</span>
   </nav>
   <nav class="navbar navbar-default" role="navigation">
 	<div class="container">
@@ -33,7 +33,7 @@
 		      	   <a id="menu1" href="#addToWallet"><i class="fa fa-user menuIcon"></i>AddToWallet</a>
 		    	</li>
 		    	<li id="createMaterialLink" class="nav-menu">
-		           <a id="menu2" href="#createMaterial"><i class="fa fa-university menuIcon"></i>MakeMaterial</a>
+		           <a id="menu2" href="#createMaterial"><i class="fa fa-university menuIcon"></i>Make Asset</a>
 		    	</li>
 		    	<li id="queryLink" class="nav-menu">
 		           <a id="menu3" href="#query"><i class="fa fa-search menuIcon"></i>Query</a>
@@ -63,23 +63,23 @@
     <!-- createMaterial --->
     <div class="tab-pane text-style" id="createMaterialTab">
       <div class="alert alert-primary" role="alert">
-         <h4>Make Material</h4>
+         <h4>Make Asset</h4>
       </div>
       	<form>
       	  <div class="form-group row">
-      	    <label for="rawmaterial" class="col-sm-2 col-form-label">Rawmaterial</label>
+      	    <label for="rawmaterial" class="col-sm-2 col-form-label">Asset</label>
       	    <div class="col-sm-10">
       	      <input type="text" class="form-control" id="rawmaterial" value="GlobalMaterialCorp">
       	    </div>
       	  </div>
       	  <div class="form-group row">
-      	    <label for="materialNumber" class="col-sm-2 col-form-label">Material Number</label>
+      	    <label for="materialNumber" class="col-sm-2 col-form-label">Asset Number</label>
       	    <div class="col-sm-10">
       	      <input type="text" class="form-control" id="materialNumber" value="2000.002">
       	    </div>
       	  </div>
       	  <div class="form-group row">
-      	    <label for="materialName" class="col-sm-2 col-form-label">Material Name</label>
+      	    <label for="materialName" class="col-sm-2 col-form-label">Asset Name</label>
       	    <div class="col-sm-10">
       	      <input type="text" class="form-control" id="materialName" value="e360-Ventilator">
       	    </div>
@@ -97,7 +97,7 @@
     <!-- query --->
   <div class="tab-pane text-style" id="queryTab">
         <div class="alert alert-primary" role="alert">
-           <h4>Query supply chain data</h4>
+           <h4>Query Asset data</h4>
         </div>
        <form>
     	   <div class="form-group">
@@ -115,15 +115,15 @@
                   <td><span id="queryKeyRequest"></span></td>
                 </tr>
                 <tr>
-                  <th scope="row">Rawmaterial</th>
+                  <th scope="row">Asset</th>
                   <td><span id="rawmaterialOutPut"></span></td>
                 </tr>
                 <tr>
-                  <th scope="row">Material Number</th>
+                  <th scope="row">Asset Number</th>
                   <td><span id="materialNumberOutPut"></span></td>
                 </tr>
                 <tr>
-                  <th scope="row">Material Name</th>
+                  <th scope="row">Asset Name</th>
                   <td><span id="materialNameOutPut"></span></td>
                 </tr>
                 <tr>
@@ -139,7 +139,7 @@
                   <td><span id="currentOwnerType"></span></td>
                 </tr>
                 <tr>
-                  <th scope="row">Raw Material Created Date</th>
+                  <th scope="row">Asset Created Date</th>
                   <td><span id="createDateTime"></span></td>
                 </tr>
                 <tr>
@@ -156,7 +156,7 @@
     <!-- query history --->
   <div class="tab-pane text-style" id="queryHistoryTab">
         <div class="alert alert-primary" role="alert">
-           <h4>Query supply chain history data</h4>
+           <h4>Query Asset history data</h4>
         </div>
        <form>
          <div class="form-group">
