@@ -11,7 +11,7 @@
 const fs = require('fs');
 const yaml = require('js-yaml');
 const { Wallets, Gateway } = require('fabric-network');
-const DiskominfoassetLedgerContract = require('../../contract/lib/diskominfoassetledgercontract.js.js');
+const DiskominfoassetLedgerContract = require('../../contract/lib/diskominfoassetledgercontract.js');
 class MaterialService {
   /**
   * 1. Select an identity from a wallet

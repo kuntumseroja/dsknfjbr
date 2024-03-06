@@ -7,7 +7,7 @@
 $(document).ready(function(){
   //make sure change to your own machine ip or dmain url
     //var urlBase = "http://localhost:30000";
-  var urlBase = "http://54.161.38.96:30002";
+  var urlBase = "http://185.230.64.110:30002";
   var tabs =["addToWallet", "carmanufacturerReceived", "query", "queryHistory"];
   $("#queryResult").hide();
   $("#addToWalletLink").click(function(){
